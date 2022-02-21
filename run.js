@@ -82,12 +82,14 @@ const infoContent = {
 
 const contractInfo = 
 {
-  "name": "Demonstrating collection for tests purposes.",
+  "name": "Demonstrating collection for tests purposes. by @masterviana",
   "description": "Collection created for demonstration series on @masterviana github check full information on github. OpenSea Creatures are adorable aquatic beings primarily for demonstrating what can be done using the OpenSea platform. Adopt one today to try out all the OpenSea buying, selling, and bidding feature set.",
-  "image": "https://raw.githubusercontent.com/masterviana/nft-marketplace-metadata-api/main/static/opensea-banner.png",
+  "image": "https://raw.githubusercontent.com/masterviana/nft-marketplace-metadata-api/main/static/mario.png",
+  "banner": "https://raw.githubusercontent.com/masterviana/nft-marketplace-metadata-api/main/static/opensea-banner.png",
+  "banner_url": "https://raw.githubusercontent.com/masterviana/nft-marketplace-metadata-api/main/static/opensea-banner.png",
   "external_link": "https://github.com/masterviana/",
   "seller_fee_basis_points": 15,
-  "fee_recipient": "0xA97F337c39cccE66adfeCB2BF99C1DdC54C2D721" 
+  "fee_recipient": "0x3Ca48686212Af897019a8E89140e64E8F2cC2f30" 
 }
 
 app.get("/", (req, res, next) => 
