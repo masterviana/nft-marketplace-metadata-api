@@ -8,7 +8,7 @@ Backed services is running on url [https://nft-metadata-service-api.herokuapp.co
 
 ### Request contract description
 
-Return collection description
+Return collection description for this collection
 
 `GET /`
 
