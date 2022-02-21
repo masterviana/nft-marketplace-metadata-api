@@ -96,12 +96,12 @@ app.get("/detail/:id", (req, res, next) =>
     console.log('input ', req.params.id);
     let id = req.params.id; //parseInt(req.params.id, 16);
     
-    if(id < 1 || id > NUM_PICS){
+    if(id < 1){
         console.log('There isnt any id valid');
         res.json( {name : "Id from query not vale", ' <!!!!> ' : "Id from query not vale", in : req.params.id} );
     }
     else{
-        const picID = id % (NUM_PICS) + 1;
+        const picID = id % (NUM_PICS);
         res.json(
             { 
                 id : id,
