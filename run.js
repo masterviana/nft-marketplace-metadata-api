@@ -39,7 +39,7 @@ app.listen(port, () =>
 const infoContent = {
     id : '<id>' , 
     name : 'Item name : ',
-    description : "Friendly Creature that enjoys long swims in the ocean. ID: ",
+    description : "Friendly Creature that enjoys long swims in the ocean. ",
     image : BASE_IMAGE,
     externalURL : process.env.BASE_API || '',
     attributes : [
@@ -80,14 +80,24 @@ const infoContent = {
     ]
 }
 
+const contractInfo = 
+{
+  "name": "Demonstrating collection for tests purposes.",
+  "description": "Collection created for demonstration series on @masterviana github check full information on github. OpenSea Creatures are adorable aquatic beings primarily for demonstrating what can be done using the OpenSea platform. Adopt one today to try out all the OpenSea buying, selling, and bidding feature set.",
+  "image": "https://raw.githubusercontent.com/masterviana/nft-marketplace-metadata-api/main/static/opensea-banner.png",
+  "external_link": "https://github.com/masterviana/",
+  "seller_fee_basis_points": 15,
+  "fee_recipient": "0xA97F337c39cccE66adfeCB2BF99C1DdC54C2D721" 
+}
+
 app.get("/", (req, res, next) => 
 {
-    res.json( infoContent  );
+    res.json( contractInfo  );
 });
 
 app.get("/detail", (req, res, next) => 
 {
-    res.json( infoContent );
+    res.json( contractInfo );
 });
 
 
