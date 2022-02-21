@@ -4,7 +4,7 @@ Backend service api contains metadata info, about nft itens (description, images
 
 # Running URL
 
-Backed services is running on url ``` https://nft-metadata-service-api.herokuapp.com/ ``` 
+Backed services is running on url ``` https://nft-metadata-service-api.herokuapp.com/ ``` you can try yourseld (Link)[https://nft-metadata-service-api.herokuapp.com/]
 
 
 ### Request
