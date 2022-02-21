@@ -9,11 +9,13 @@ Backend service api contains metadata info, about nft itens (description, images
 
  ### Response
 
-  {
+`
+{
    "id":"1",
    "name":"Item name : 1",
    "description":"Friendly Creature that enjoys long swims in the ocean. ID: 1",
    "externalURL":"https://nft-metadata-service-api.herokuapp.com/1",
    "image":"https://raw.githubusercontent.com/masterviana/nft-marketplace-metadata-api/main/static/images/1.jpg"
 }
+`
 
