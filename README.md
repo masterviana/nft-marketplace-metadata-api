@@ -2,6 +2,10 @@
 
 Backend service api contains metadata info, about nft itens (description, images etc) for using on all nft tokens like erc1155 and erc721 it follows the standard using by opensea marketplace
 
+# Running URL
+
+Backed services is running on url ``` https://nft-metadata-service-api.herokuapp.com/ ``` 
+
 
 ### Request
 
